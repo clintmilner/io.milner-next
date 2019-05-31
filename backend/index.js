@@ -15,6 +15,7 @@ app.get('/', (req, res, next) => {
 
 /* APIs */
 app.get('/greeting', (req, res, next) => {
+    console.log(`getting the ${greeting}`);
     res.json({greeting});
 });
 
