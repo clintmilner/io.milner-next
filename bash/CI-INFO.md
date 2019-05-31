@@ -21,4 +21,4 @@ Make/Update 'post-commit' to include th following:
  
  Then put the post-commit action(s) in `<current-directory>/bash/commit.sh`
  
- You should see the `echo` statements in the terminal.
+ You should see the `echo` statements in the terminal or the IntelliJ Console.
