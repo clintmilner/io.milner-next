@@ -4,12 +4,17 @@
   "description": "Next iteration of milner.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"(cd backend && npm run build)\" \"(cd frontend && npm run dev)\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clintmilner/io.milner-next.git"
   },
   "author": "Clint Milner",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "backend": "file:backend",
+    "concurrently": "^4.1.0",
+    "frontend": "file:frontend"
+  }
 }

@@ -24,12 +24,12 @@ export default class Page extends React.Component {
                 💦 🚒
                 <ul>
                     <li>
-                    <Link href="/" title="Home Page">
+                    <Link href="/">
                         <a>Home</a>
                     </Link>
                     </li>
                     <li>
-                    <Link href="/about" title="About Page">
+                    <Link href="/about">
                         <a>About Page</a>
                     </Link>
                     </li>
