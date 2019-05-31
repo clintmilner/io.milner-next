@@ -1,0 +1,22 @@
+{
+  "name": "io.milner-next",
+  "version": "1.0.0",
+  "description": "Next iteration of milner.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintmilner/io.milner-next.git"
+  },
+  "keywords": [
+    "milner"
+  ],
+  "author": "Clint Milner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintmilner/io.milner-next/issues"
+  },
+  "homepage": "https://github.com/clintmilner/io.milner-next#readme"
+}
