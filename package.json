@@ -10,13 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/clintmilner/io.milner-next.git"
   },
-  "keywords": [
-    "milner"
-  ],
   "author": "Clint Milner",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/clintmilner/io.milner-next/issues"
-  },
-  "homepage": "https://github.com/clintmilner/io.milner-next#readme"
+  "license": "ISC"
 }
